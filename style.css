@@ -1,0 +1,22 @@
+.modal {
+  width: 60vw;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 35vh;
+  right: 20vw;
+  border: 1px solid black;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 45vw;
+}
